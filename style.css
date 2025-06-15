@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    .pacifico-regular {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
+      .righteous-regular {
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+      
+}
+
+::selection {
+    background-color: #fec160;
+    color: #352e28;
+    color: rgba(240, 248, 255, 0.803);
+  }
+
+body{
+    background-color: #f7ecde;
+
+}
+
+
+.main-page{
+}
+
+
+.main-page h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    position: relative;
+
+
+}
+.main-page h1::before{
+    content: "";
+    width: 100%;
+    height: 25%;
+    background-color:#fec260;
+    bottom: 10px;
+    z-index: -1;
+    transition: 0.5s;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.main-page h1:hover::before{
+    height: 50%;
+}
+
+.bookmark-card{
+    border: 2px dotted black;
+    border-right: none;
+    border-left: none;
+}
+
+.bookmark-card h2{
+    font-family: "Righteous", cursive;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+  
+}
+
+.btn-submit{
+    color: #fff;
+    background-color: #d1512d;
+}
+.btn-submit:hover{
+    color: #fff;
+    background-color: #bb4120;
+
+}
+
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #d99c39;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+  }
+
+
+.box-info {
+    background-color: #0007;
+  }
+  
+  .box-conent {
+    width: 500px;
+    z-index: 10;
+  }
+  
+  .box-conent p {
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+  }
+  
+  .rules li {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .rules i {
+    color: #bb4120;
+  }
+  
+  .circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .circles span:nth-child(1) {
+    background-color: #f15f5d;
+  }
+  .circles span:nth-child(2) {
+    background-color: #febe2e;
+  }
+  .circles span:nth-child(3) {
+    background-color: #4db748;
+  }
+  
+  .logo {
+    width: 40px;
+  }
+
+
+
+  
+.btn-visit{
+    color: #fff;
+    background-color: #8a9e23;
+}
+.btn-visit:hover{
+    color: #fff;
+    background-color: #6d7b23;
+
+}
+  
+.btn-delete{
+    color: #fff;
+    background-color: #d30820;
+}
+.btn-delete:hover{
+    color: #fff;
+    background-color: rgb(187, 14, 14);
+
+}
+
+  
